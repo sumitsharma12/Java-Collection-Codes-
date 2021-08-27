@@ -15,10 +15,22 @@ public class CreatingArrayList {
         for(Integer list:newlist){
             System.out.println(list);
         }
+
+
+        ArrayList<String> newlist2=new ArrayList<>();
+        newlist2.add("sumit");
+        newlist2.add("sushant");
+
+        for (String ob:newlist2){
+            System.out.println(ob);
+        }
     }
+
+
 
     public static void main(String[] args) {
         CreatingArrayList obj=new CreatingArrayList();
         obj.first();
+
     }
 }
