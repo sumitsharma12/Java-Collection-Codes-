@@ -7,7 +7,7 @@ public class CreatingArrayList {
         //        Generic list Syntax :
 //    Arraylist <DataType> obj_name=new Arraylist <DataType>();
 
-        ArrayList<Integer> newlisst=new ArrayList<Integer>();
+        ArrayList<Integer> newlist=new ArrayList<Integer>();
         newlist.add(22);
         newlist.add(45);
 
